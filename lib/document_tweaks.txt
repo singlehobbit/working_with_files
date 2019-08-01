@@ -1,0 +1,22 @@
+rename Document#sign_signature to #add_copyright
+  rename Document.set_signature to .set_copyright
+  rename @signature to @copyright; getter
+def from_saves_get(file_name);end
+add author in content; so it will show up in original text file
+and you could know author from first lines
+  def add_author_in_content;end
+DONE
+  rework Document.read_from
+#take look when there is calls to methods and same local variables
+#how does programm distinguish between them
+
+
+
+class String
+
+  def minus(other_string)
+    #if self = 'hello world' and other_string = 'hello'
+    #then self.minus other_string #=> ' world'
+  end
+end
+
